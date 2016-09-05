@@ -50,9 +50,8 @@ Finally, run `npm start` to run the Sass compiler. It will re-run every time you
 ===
 ## TODO
 
-* This
-* Other
-* Header
-* Footer
+* Copy for bio
+* Copy for artowrk
 * Artwork titles
-* About page
+* Font
+* Color
