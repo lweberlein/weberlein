@@ -50,8 +50,49 @@
 @include motion-ui-animations;
 
 $font-stack: "Futura PT", "Helvetica";
+$row-margin: 50px;
+
+b{
+    text-transform: uppercase;
+}
+
+a{
+    color: black;
+    :hover{
+        border-bottom: thin solid black;
+    }
+}
 
 .title{
     color: gray;
     font-family: $font-stack;
+}
+
+#fireside{
+    padding-top: 25px;
+}
+
+#horse{
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+#travel{
+    padding-top: 20px;
+}
+
+#bird{
+    padding-top: 35px;
+}
+
+#icon{
+    padding-top: 35px;
+}
+#geocactus{
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+#about{
+    padding-top: 40px;
 }
