@@ -49,7 +49,7 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-$font-stack: "Futura PT", "Helvetica";
+$font-stack: "Open Sans Condensed", "Helvetica";
 $row-margin: 50px;
 
 b{
@@ -57,9 +57,9 @@ b{
 }
 
 a{
-    color: black;
+    color: blue;
     :hover{
-        border-bottom: thin solid black;
+        border-bottom: thin solid blue;
     }
 }
 
