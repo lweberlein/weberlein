@@ -56,7 +56,13 @@ b{
     text-transform: uppercase;
 }
 
-
+a{
+    color: black;
+    &:hover{
+        color: lightsalmon;
+        // border-bottom: thin solid blue;
+    }
+}
 
 .title{
     color: gray;
