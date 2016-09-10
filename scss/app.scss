@@ -49,7 +49,10 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-$font-stack: "Open Sans Condensed", "Helvetica";
+@import 'https://fonts.googleapis.com/css?family=Didact Gothic';
+
+
+$font-stack: 'Didact Gothic', sans-serif;
 $row-margin: 50px;
 
 b{
@@ -64,9 +67,9 @@ a{
     }
 }
 
-.title{
+body{
     color: gray;
-    font-family: $font-stack;
+    font-family: $font-stack !important;
 }
 
 #fireside{
