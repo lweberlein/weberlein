@@ -1,0 +1,4 @@
+https://weberle.in
+tls digitalocean
+gzip
+log ../access.log
